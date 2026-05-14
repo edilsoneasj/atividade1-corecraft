@@ -1,7 +1,7 @@
 import os
 import string
 from flask import Flask, jsonify, request, send_from_directory
-from rpc import BitcoinRPC, BitcoinRPCError
+from corecraft.atividade1.backend.rpc import BitcoinRPC, BitcoinRPCError
 from decimal import Decimal, getcontext
 
 getcontext().prec = 8
